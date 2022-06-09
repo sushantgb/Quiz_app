@@ -331,10 +331,10 @@ h6 {
     }
     .options {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .options button{
         font-size: 0.5em;
-        width: 30% ;
+        width: 50% ;
     }
 }
