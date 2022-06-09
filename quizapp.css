@@ -334,7 +334,10 @@ h6 {
         flex-direction: column;
     }
     .options button{
-        font-size: 0.5em;
-        width: 50% ;
+        font-size: 0.8em;
+        width: 100% ;
+    }
+    .category .heading {
+        width: 100%;
     }
 }
