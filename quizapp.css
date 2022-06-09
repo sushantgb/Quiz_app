@@ -326,4 +326,11 @@ h6 {
     .results{
         font-size: 0.8em;
     }
+    .category {
+        width:50%;
+    }
+    .options button{
+        font-size: 0.5em;
+        width: 80% ;
+    }
 }
