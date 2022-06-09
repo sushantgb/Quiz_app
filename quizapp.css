@@ -329,8 +329,12 @@ h6 {
     .category {
         width:50%;
     }
+    .options {
+        display: flex;
+        flex-direction: row;
+    }
     .options button{
         font-size: 0.5em;
-        width: 80% ;
+        width: 30% ;
     }
 }
