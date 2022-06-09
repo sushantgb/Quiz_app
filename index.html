@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz  Application</title>
+    <link rel="stylesheet" href="quizapp.css">
+</head>
+<body>
+    <!-- main container div -->
+    <div class="container">
+        <!-- section for welcome note and user details -->
+        <section class="userdetails">
+            <!-- div for logo -->
+            <div class="logo">
+                <img src="logo.png" alt="book logo with question mark">
+            </div>
+            <!-- div for welcome note -->
+            <div class="note">
+                <h2>Hello Buddy !</h2>
+                <h3>Welcome to General Studies Quiz</h3>
+            </div>
+            <!-- div for input and instructions -->
+            <div class="form">
+                <p id="label">Enter Your Name To Start The Quiz</p>
+                <form>
+                    <input type="text" name="username" id="username" placeholder="Enter Your Name">
+                    <button id="namebtn" onclick = "loadName()">Enter</button>
+                </form>
+                <p id="instruct">
+                    You have 10 seconds to answer each question. <br>
+                </p>
+            </div>
+        </section>
+        <hr>
+        <!-- section for quiz categories -->
+        <section class="category">
+            <div class="heading">
+                <h3>Select A Category To Start The Quiz</h3>
+            </div>
+            <!-- div for options -->
+            <div class="options">
+                <button id="his" onclick="parent.location='history.html'">Indian History</button>
+                <button id="sci" onclick="parent.location='science.html'">General Science</button>
+                <button id="pol" onclick="parent.location='polity.html'">Indian Polity</button>
+                <button id="geo" onclick="parent.location='geography.html'">Indian Geography</button>
+            </div>
+        </section>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,329 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+/* universal reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(71, 69, 64);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* style for main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    background-color: #D21DDB;
+    padding: 2em;
+    margin-top: 1em;
+    gap: 2em;
+    box-shadow: 0px 2px 8px 0px black;
+    border-radius: 0.5em;
+    color: aliceblue;
+    height: max-content;
+    font-size: 1em;
+}
+
+/* styling for user section */
+.userdetails {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    gap: 0.5em;
+}
+
+.userdetails .note {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+/* logo style */
+.logo img {
+    width: 5em;
+    height: 5em;
+}
+
+/* styling for form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* style of label paragraph */
+.form #label {
+    margin-top: 1em;
+}
+
+/* styling for the form inside form class */
+.form form {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5em;
+}
+
+/* styling for input and button tag */
+.form input,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 0.8em;
+    border-radius: 0.2em;
+    border: solid;
+    border-style: none;
+}
+
+.form button:hover {
+    cursor: pointer;
+    background-color: #F5CBF0;
+}
+
+/* specific styling of text field */
+#username {
+    width: 80%;
+}
+
+/* styling for quiz categories */
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: auto;
+    align-items: center;
+}
+
+.category .heading {
+    margin-bottom: 0.5em;
+}
+
+/* styling for options */
+.options {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+}
+
+/* styling for option buttons */
+.options button {
+    padding: 0.8em;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border: solid;
+    border-style: none;
+}
+
+.options button:hover {
+    cursor: pointer;
+    background-color: #F5CBF0;
+}
+
+/* ------------------- quiz page styling >> ------------------ */
+/* Heading */
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+}
+
+.header h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+/* style for counter div */
+.counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter p {
+    font-weight: bold;
+}
+
+/* style for question div */
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+/* styling for displaying the question number */
+.questnum {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 0.2em;
+    width: 15%;
+    margin: auto;
+    padding: 0.8em;
+}
+
+/* style for div to display question */
+.questtext {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    border-radius: 0.2em;
+    height: 12vh;
+}
+
+/* styling of answers/options div */
+.answers {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2em;
+}
+
+/* styling of the options button  */
+.answers button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.8em;
+    text-align: center;
+    border: solid;
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+    height: 11vh;
+    align-content: center;
+}
+
+.answers button:hover {
+    background-color: #F5CBF0;
+}
+
+/* styling for navigating div for next/submit button */
+.navigate {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* styling of next and submit button */
+.navigate button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5em;
+    width: 10em;
+    border: solid;
+    border-style: none;
+}
+
+.navigate button:hover {
+    cursor: pointer;
+    background-color: #F5CBF0;
+}
+
+/* setting for inactive class */
+.inactive {
+    display: none;
+}
+
+/* setting for active class */
+.active {
+    display: block;
+}
+
+/* Result page styles */
+/* styling for results section */
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+/* results heading note */
+.results .heading {
+    display: block;
+    padding: 1em;
+    background-color: aliceblue;
+    color: black;
+}
+/* styling for the player name */
+.player-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+/* styling for the other divs to display other variables */
+.total-time,
+.total-questions,
+.attempted-questions,
+.correct-answers,
+.wrong-answers,
+.percentage {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5em;
+}
+/* styling for the span inside all child divs of results */
+.player-name span,
+.total-time span,
+.total-questions span,
+.attempted-questions span,
+.correct-answers span,
+.wrong-answers span,
+.percentage span{
+    color: #FFF126;
+    font-size: 1.5em;
+}
+/* styling for div having restart buttons */
+.restart-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.restart-buttons button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5em;
+    width: 12em;
+    border: solid;
+    border-style: none;
+}
+.restart-buttons button:hover{
+    cursor: pointer;
+    background-color: #F5CBF0;
+}
+
+/* responsive setting */
+@media only screen and (max-width: 950px){
+    body{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+    }
+    .container {
+        width: 90%;        
+    }
+    .questtext{
+        font-size: 0.8em;
+        height: 15vh;
+    }
+    .questnum{
+        font-size: 0.8em;
+        width: 30%;
+    }
+    .answers button{
+        font-size: 0.8em;
+        height: 15vh;
+    }
+    .results{
+        font-size: 0.8em;
+    }
+}
