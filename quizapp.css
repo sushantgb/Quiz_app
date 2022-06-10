@@ -311,35 +311,6 @@ h6 {
     .container {
         width: 90%;        
     }
-    .questtext{
-        font-size: 0.8em;
-        height: 15vh;
-    }
-    .questnum{
-        font-size: 0.8em;
-        width: 30%;
-    }
-    .answers button{
-        font-size: 0.8em;
-        height: 15vh;
-    }
-    .results{
-        font-size: 0.8em;
-    }
-    .category {
-        width:50%;
-    }
-    .options {
-        display: flex;
-        flex-direction: column;
-    }
-    .options button{
-        font-size: 0.8em;
-        width: 100% ;
-    }
-    .category .heading {
-        width: 100%;
-    }
     .answers {
         display: flex;
         flex-direction: column;
@@ -356,5 +327,27 @@ h6 {
         font-size: 0.7em;
         text-align: left;
         max-height: fit-content;
+    }
+    .questnum{
+        font-size: 0.8em;
+        width: 30%;
+    }
+    .results{
+        font-size: 0.8em;
+    }
+    .category {
+        width:100%;
+        font-size: 0.8em;
+    }
+    .options {
+        display: flex;
+        flex-direction: column;
+    }
+    .options button{
+        font-size: 0.8em;
+        width: 200px ;
+    }
+    .category .heading {
+        width: 100%;
     }
 }
