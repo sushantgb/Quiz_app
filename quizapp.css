@@ -347,8 +347,9 @@ h6 {
         gap: 0.5em;
     }
     .answers button {
-        height: 9vh;
+        height: 7vh;
         font-size: 0.7em;
+        text-align: center;
     }
     .questtext {
         height: 15vh;
