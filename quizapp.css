@@ -340,4 +340,17 @@ h6 {
     .category .heading {
         width: 100%;
     }
+    /* styling of answers/options div */
+    .answers {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .answers button {
+        height: 12vh;
+    }
+    .questtext {
+        height: 15vh;
+    }
+
 }
