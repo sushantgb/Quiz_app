@@ -345,11 +345,15 @@ h6 {
         display: flex;
         flex-direction: column;
         gap: 0.5em;
+        justify-content:center;
+        align-content:center;
     }
     .answers button {
+        display: block;
         height: 7vh;
         font-size: 0.7em;
         text-align: center;
+        
     }
     .questtext {
         height: 15vh;
