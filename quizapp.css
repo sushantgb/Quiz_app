@@ -348,10 +348,13 @@ h6 {
     .answers button {
         height: 7vh;
         font-size: 0.7em;
-        text-align: justify;
+        text-align: left;
+        max-height: fit-content;
     }
     .questtext {
         height: 16vh;
         font-size: 0.7em;
+        text-align: left;
+        max-height: fit-content;
     }
 }
