@@ -181,7 +181,7 @@ h6 {
 .questtext {
     background-color: white;
     color: black;
-    padding: 1em;
+    padding: 0.8em;
     border-radius: 0.2em;
     height: 12vh;
 }
@@ -196,7 +196,7 @@ h6 {
 /* styling of the options button  */
 .answers button {
     font-family: 'Montserrat', sans-serif;
-    padding: 0.8em;
+    padding: 0.5em;
     text-align: center;
     border: solid;
     border-style: none;
