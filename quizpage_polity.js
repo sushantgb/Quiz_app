@@ -298,7 +298,11 @@ function Submitresult(){
     percentage.innerHTML = ((scoreCount/questionLength)*100);
 }
 
-
+//home page button
+    function HomeBtn(){
+        parent.location='index.html';
+        localStorage.clear();
+    }
 
 
 
