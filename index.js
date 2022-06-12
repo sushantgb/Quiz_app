@@ -12,7 +12,7 @@ var storedName = localStorage.getItem("storedName");
 function loadName(){
     var userName = document.getElementById('username').value;
     localStorage.setItem("storedName", userName); //storing username in 'storedName'
-    if(userName == ""){
+    if(localStorage.length == ""){
         //showing error if name is not entered
         alert("Please enter your name");
         console.log("error: name is not entered"); 
